@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    DOCKERHUB = "<YOUR_DOCKERHUB_USERNAME>/<YOUR_DOCKERHUB_REPO>"
+    DOCKERHUB = "deku013/webapp"
     IMAGE_TAG = "latest"
     KUBECONFIG = '/var/jenkins_home/.kube/config'
   }
